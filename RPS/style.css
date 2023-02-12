@@ -1,0 +1,64 @@
+
+button{
+  align-content: center;
+  outline: none;
+}
+.spacer{
+  margin-top: 4em;
+}
+p{
+  font-size: 4vw;
+}
+img {
+  max-width: 100%;
+}
+
+@media (min-width: 992px) {
+  .settings, .game-result, p {font-size: 48px;}
+  .btn{
+    height: 60%;
+    width: 60%;
+  }
+  .spacer{
+    margin-top: 3em;
+  }  
+  }
+
+@media (max-width: 991.9px) {
+  .settings, .game-result, p {font-size: 3rem;}
+  
+}
+@media (max-width: 768px) {
+  .settings, .game-result, p {
+    font-size: 2rem;
+  }
+  
+}@media (max-width: 576px) {
+  .settings, .game-result, p {
+    font-size: 1rem;
+  }
+  
+}
+.spacer-small{
+  margin-top: 100px;
+}
+.settings{
+  margin-top: .5em;
+  width: 100%;
+}
+.form-check{
+  justify-content: center;
+}
+.form-check-label{
+  padding-left: 1em;
+}
+.resultContainer{
+  padding-top: .5em; 
+}
+.game-result{
+  height: 100px;
+}
+.scores-container{
+  text-align: center;
+  font-size: 48px;
+}
